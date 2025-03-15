@@ -49,7 +49,7 @@ public class PdfImageStamper {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main_bak(String[] args) {
         stampPdf("plain_filled_pdfs\\Direct Deposit Application Form-Michelle Lu", "signed\\Direct Deposit Application Form-Michelle Lu", 1, 0.5f, 150, 67, SIGNATURE_FILE_NAME);
         stampPdf("signed\\Direct Deposit Application Form-Michelle Lu", "signed\\Direct Deposit Application Form-Michelle Lu", 1, 0.4f, 370, 67, DATE_FILE_NAME);
         stampPdf("signed\\Direct Deposit Application Form-Michelle Lu", "signed\\Direct Deposit Application Form-Michelle Lu", 1, 0.06f, 80 , 94, CHECK_MARK);
